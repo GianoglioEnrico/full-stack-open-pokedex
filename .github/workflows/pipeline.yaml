@@ -15,8 +15,10 @@ jobs:
           node-version: "12.x"
       - name: npm install
         run: npm install
-      - name: lint
-        run: npm run eslint
+      - name: npm test
+        run: npm test
+      - name: npm build
+        run: npm build
 # name: Hello World!
 
 # on:
